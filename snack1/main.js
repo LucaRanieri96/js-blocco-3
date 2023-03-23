@@ -16,9 +16,9 @@ const automobili = [
     alimentazione: "benzina",
   },
   {
-    marca: "Volkswagen",
-    modello: "Golf",
-    alimentazione: "diesel",
+    marca: "Fiat",
+    modello: "Pandino",
+    alimentazione: "metano",
   },
   {
     marca: "Renault",
