@@ -18,7 +18,8 @@ const animals = [
     { nome: 't-rex', famiglia: 'sauri', classe: 'rettili' },
     { nome: 'polpo', famiglia: 'daisjd', classe: 'invertebrati' },
   ];
-
+// come il primo esercizio ma stavolta uso filter come fabio
+// e mettiamo tutto in un unica riga tanto non abbiamo condizioni
   const mammiferi = animals.filter(animal => animal.classe === "Mammiferi");
 
 console.log(mammiferi);
