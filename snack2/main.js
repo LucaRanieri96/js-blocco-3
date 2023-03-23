@@ -11,5 +11,6 @@ const stringArray = ['pippo', 'PLUTO', 'Paperino','toPoLINO', 'MiNNie'];
 
 // uso il metodo map per crearmi un array formattato
 const formattedArray = stringArray.map(string => {
-    
+    // trasformo le stringhe tutte in minuscolo
+    const lowerCase = string.toLowerCase();
 })
