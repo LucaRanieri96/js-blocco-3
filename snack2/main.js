@@ -16,7 +16,7 @@ const formattedArray = stringArray.map(string => {
     // trasformo la prima lettera maiuscola, prendo il lowerCase e seleziono la prima lettera con .charAt e la metto in maiuscolo
     const firstLetterUpperCase = lowerCase.charAt(0).toUpperCase();
     // ritorno questi valori però li devo mettere insieme?
-    return firstLetterUpperCase + lowerCase
+    return firstLetterUpperCase + lowerCase.slice(1);
 })
 
 console.log(formattedArray);
